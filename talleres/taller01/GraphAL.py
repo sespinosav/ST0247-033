@@ -19,16 +19,20 @@ class GraphAL:
     def addArc(self, vertex, edge, weight):
         
       #Agregamos una clave valor al diccionario ya existente
+      #Que sera el inicio y el destino que conforma al arco nuevo
       self.__listt[vertex].update({edge : weight})
 
 
     def getSuccessors(self, vertice):
       
+      #Retornamos una lista con las llaves de la lista
+      #del diccionario, que vendrian siendo los nodos succesores
       return self.__listt[vertice].keys()
 
         
     def getWeight(self, source, destination):
-
+       
+      #Retornamos el peso del arco entre el inicio y el destino
       return self.__listt[source][destination]
 
     def __str__(self):
