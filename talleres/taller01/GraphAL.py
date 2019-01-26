@@ -19,8 +19,8 @@ class GraphAL:
         self.__listt.append(dict())
       
     """@param vertex desde donde se hara el arco
-	@param destination hacia donde va el arco
-	@param weight el peso de la longitud entre source y destination"""
+       @param destination hacia donde va el arco
+       @param weight el peso de la longitud entre source y destination"""
     def addArc(self, vertex, edge, weight):
         
       #Agregamos una clave valor al diccionario ya existente
