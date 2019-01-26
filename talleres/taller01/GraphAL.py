@@ -15,6 +15,7 @@ class GraphAL:
       self.__listt = []
        
       #Llenamos la lista con diccionarios vacio
+      #@param tamaño de la matriz nxn
       for i in range(size):
         self.__listt.append(dict())
       
@@ -23,8 +24,9 @@ class GraphAL:
        @param weight el peso de la longitud entre source y destination"""
     def addArc(self, vertex, edge, weight):
         
-      #Agregamos una clave valor al diccionario ya existente
-      #Que sera el inicio y el destino que conforma al arco nuevo
+      """Agregamos una clave valor al diccionario ya existente
+      Que sera el inicio y el destino que conforma al arco nuevo"""
+      #@see <https://www.programiz.com/python-programming/methods/dictionary/update> ver documentacion de la funcion update
       self.__listt[vertex].update({edge : weight})
 
     #@param vertex desde donde se hara el arco
