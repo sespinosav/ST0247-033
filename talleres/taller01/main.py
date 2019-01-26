@@ -1,5 +1,4 @@
-#Author Santiago Espinosa
-#Author Camilo
+#@Author Santiago Espinosa, Juan Camilo
 from GraphAM import *
 from GraphAL import *
 #Pruebas 
