@@ -45,7 +45,7 @@ class GraphAL:
     
       return self.__listt[vertice].keys()
     
-    def getWeight(self, source, destination
+    def getWeight(self, source, destination):
                   
     """
     :param source: desde donde se inicia el arco
