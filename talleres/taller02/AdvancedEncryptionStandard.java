@@ -1,3 +1,5 @@
+//#@author Mauricio, Juan camilo, Santiago
+
 import javax.crypto.Cipher;
 import javax.crypto.spec.SecretKeySpec;
 import java.nio.charset.StandardCharsets;
@@ -7,6 +9,8 @@ import java.nio.file.Path;
 
 public class AdvancedEncryptionStandard
 {
+    
+    //https://stackoverflow.com/questions/15554296/sim
     /**
      * Decrypts the given byte array
      *
